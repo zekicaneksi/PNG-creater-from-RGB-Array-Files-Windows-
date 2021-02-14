@@ -1,0 +1,5 @@
+CRC algorithm is not working.
+
+the way i get file size of file called "deflated"(in pngCreaterMain.cpp) is not always supposed to work according to people in stackoverflow. keep in mind.
+
+the only windows depended part is ShellExecuteA routine that depends on windows' Shell32.dll (<Windows.h>) in src/pngCreater.cpp
